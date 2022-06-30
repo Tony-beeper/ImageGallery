@@ -22,6 +22,6 @@ An ImageGallery implemented for course CSCC09(Programming on the Web).
    need to run npm instsall --save dotenv first, if solely npm install does not work.
 3. run `node app.js` in the main directory
 
-##Demo image
-![alt text](https://github.com/Tony-beeper/ImageGallery/tree/main/static/media/demoImage.png?raw=true)
+## Demo image
+![alt text](https://github.com/Tony-beeper/ImageGallery/blob/main/static/media/demoImage.png?raw=true)
 
