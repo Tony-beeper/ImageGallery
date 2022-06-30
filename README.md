@@ -1,19 +1,26 @@
 # Description
 
-An ImageGallery implemented for course CSCC09(Programming on the Web).
+  An ImageGallery implemented for course CSCC09(Programming on the Web).
 
-##Tech used
-  -NEDB
-  -Javscript
-  -Html/CSS
-  -bcrypt/session/cookies
+## Tech used
+
+### Frontend:
+  * Javscript
+  * Html/CSS
+
+
+### Backend:
+  * NEDB
+  * Node/Express.Js
+  * multer/fetch
+  * bcrypt/session/cookies
 
 ## Highlighted functionalities
-  -Image upload and comment on images
-  -Individual user has his/her own gallery
-  -nedb database to manage user information(e.g. signup, signin, comments, images source etc)
-  -rolebase access with cookie and session
-  -encrytion with bcrypt
+  * Image upload and comment on images
+  * Individual user has his/her own gallery
+  * nedb database to manage user information(e.g. signup, signin, comments, images source etc)
+  * rolebase access with cookie and session
+  * encrytion with bcrypt
   
 ## Setup
 
