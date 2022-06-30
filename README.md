@@ -1,3 +1,7 @@
+
+## Demo image
+![alt text](https://github.com/Tony-beeper/ImageGallery/blob/main/static/media/demoImage.png?raw=true)
+
 # Description
 
   An ImageGallery implemented for course CSCC09(Programming on the Web).
@@ -28,7 +32,4 @@
 2. create a .env file and name a SESSION_SECRET to a random string as session secret for app.js, such as SESSION_SECRET = "AS1H3J92J2H7392TGVSH".
    need to run npm instsall --save dotenv first, if solely npm install does not work.
 3. run `node app.js` in the main directory
-
-## Demo image
-![alt text](https://github.com/Tony-beeper/ImageGallery/blob/main/static/media/demoImage.png?raw=true)
 
