@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Image Gallery</title>
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="styles/comment-form.css" rel="stylesheet" type="text/css" />
+    <link href="styles/image.css" rel="stylesheet" type="text/css" />
+    <link href="styles/buttons.css" rel="stylesheet" type="text/css" />
+    <link href="styles/image-form.css" rel="stylesheet" type="text/css" />
+    <link href="styles/comments-window.css" rel="stylesheet" type="text/css" />
+    <link href="styles/galleries.css" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body>
+     <header id="top-header">
+      <!-- <a href="/" id="title">Microblog</a> -->
+      <a href="/login.html" id="signin-button" class="btn header-btn hidden"
+        >Sign in or Sign up</a
+      >
+      <a href="/signout/" id="signout-button" class="btn header-btn hidden"
+        >Sign out</a
+      >
+    </header>
+    <div class="previous-btn-galleries icon hidden" id="previous-btn-galleries"></div>
+
+    <div class="galleries hidden" id="galleries">
+
+      <div class="gallerylist" id = "gallerylist">
+
+      </div>
+
+    </div>
+    <div class="next-btn-galleries icon hidden" id="next-btn-galleries"></div>
+
+    <div class="previous-btn icon hidden" id="previous-btn"></div>
+
+    <div class="image-body hidden" id="image-body">
+      <header class="img-header">
+        <a
+          href="/a1-Tony-beeper/cd639c84-c5ba-43e2-bef8-3e56619a6d95.html"
+          id="title"
+          >Image Gallery</a
+        >
+      </header>
+
+      <div class="image-frame" id="image-frame"></div>
+    </div>
+
+    <div class="next-btn icon hidden" id="next-btn"></div>
+
+    <div class="comments-body hidden" id="comments-body">
+      <div id="comments"></div>
+
+      <div class="display-buttons">
+        <button class="next-and-pre-btn" id="previous-comments">&lt</button>
+        <button class="next-and-pre-btn" id="next-comments">&gt</button>
+      </div>
+      <div class="display-buttons">
+        <button class="add-comment-btn" id="comment-button">
+          <div class="comment-icon icon"></div>
+          <div class="add-button-text">Add Comment</div>
+        </button>
+        <button class="add-img-btn" id="image-button">
+          <div class="button-text">Add Image</div>
+          <div class="img-icon icon"></div>
+        </button>
+      </div>
+
+      <form class="comment-form" id="create-comment-form">
+        <div class="comment-form-title">Post your comment</div>
+        <!-- <input
+          type="text"
+          id="comment-name"
+          class="comment-form-element"
+          placeholder="Enter your name"
+          name="username"
+          required
+        /> -->
+        <textarea
+          rows="4"
+          id="comment-content"
+          class="comment-form-element"
+          name="content"
+          placeholder="Enter your message"
+          required
+        ></textarea>
+        <button type="submit" class="btn-submit-comment">Post Comment</button>
+      </form>
+
+      
+      <!-- <form class="image-form"
+            action="/api/images/"
+            method="POST"
+            enctype="multipart/form-data"
+            id="add-image-form"
+            target="dummyframe"> -->
+      <form class="image-form" id="add-image-form">
+        <div class="image-form-title">Post your image url</div>
+        <!-- <input
+          type="text"
+          id="image-author-name"
+          class="image-form-element"
+          placeholder="Enter your name"
+          name="author"
+          required
+        /> -->
+        <input
+          id="image-title"
+          class="image-form-element"
+          name="title"
+          placeholder="Enter your image title"
+          required
+        ></input>
+
+        <input type="file" name="picture" class="image-form-element" id = "picture-field"required />
+
+        <button type="submit" class="btn-submit-image">Post Image</button>
+      </form>
+    </div>
+  </body>
+  <div class="sake-image decor-icon" id="sake-image"></div>
+
+  <footer>
+    <a href="/credits.html">credits</a>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/api-service.js"></script>
+</html>

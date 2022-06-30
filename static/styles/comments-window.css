@@ -1,0 +1,51 @@
+#comments {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.comment {
+  display: flex;
+  flex-flow: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 2px;
+  border-bottom: 1px solid grey;
+  border-radius: 10px;
+  border: 1px #3c3d3f solid;
+}
+
+.comment-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.comment-username {
+  padding-top: 0px;
+}
+
+.comment-content {
+  flex: 4;
+  max-width: 100%;
+  font-size: 16px;
+  flex-grow: 5;
+}
+
+.comment-date {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 3;
+}
+
+.delete-icon {
+  background-image: url("../media/delete-icon.png");
+}
+
+.page-id {
+  display: none;
+}

@@ -1,0 +1,52 @@
+.image-frame {
+  height: auto;
+  width: auto;
+  max-width: 1280px;
+  padding: 0rem;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  text-align: center;
+  padding: 15px;
+}
+
+.image-display {
+  /* max-width: 100%;
+  height: auto; */
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 896px;
+  padding: 0%;
+  object-fit: fill;
+  flex-shrink: 1;
+}
+.image-text {
+  color: black;
+  max-height: 100%;
+  font-size: 18px;
+}
+.image-id {
+  display: none;
+}
+
+.no-image {
+  color: black;
+  text-decoration: none;
+  margin: 0px;
+  width: 100%;
+  font-size: 24px;
+}
+
+.delete-btn-setting {
+  width: 50px;
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.delete-btn {
+  background-image: url("../media/trashicon.png");
+  max-width: 100%;
+  padding: 2%;
+}

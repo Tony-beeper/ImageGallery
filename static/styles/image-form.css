@@ -1,0 +1,27 @@
+.image-form {
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px #3c3d3f solid;
+  padding: 20px 10px 10px 10px;
+  display: none;
+  flex-direction: column;
+}
+
+.image-form .image-form-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: -20px -10px 20px -10px;
+  padding: 10px 10px 5px 25px;
+  color: black;
+  background-color: #b8cc53;
+  border-radius: 7px 7px 0px 0px;
+}
+
+.image-form .image-form-element {
+  margin-bottom: 5px;
+  font-size: 20px;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  max-width: 100%;
+  background-color: #ebf1cf;
+}

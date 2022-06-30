@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Image Gallery</title>
+    <link href="styles/login.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="styles/form.css" rel="stylesheet" type="text/css" /> -->
+  </head>
+  <body>
+    <header>
+      <a href="/" id="title">Image Gallery</a>
+    </header>
+
+    <form id="login-form" class="complex-form">
+      <input
+        type="text"
+        name="username"
+        class="form-element"
+        placeholder="Enter a username"
+        required
+      />
+      <input
+        type="password"
+        name="password"
+        class="form-element"
+        placeholder="Enter a password"
+        required
+      />
+      <div>
+        <button id="signin" name="action" class="btn">Sign in</button>
+        or <button id="signup" name="action" class="btn">Sign up</button>
+      </div>
+    </form>
+
+    <footer>
+      <a href="/credits.html">credits</a>
+    </footer>
+    <script src="js/api-service.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.gallerylist {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
+}
+
+/* .gallerylist .gallery {
+  margin: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 5px 10px 5px 10px;
+  max-width: 100%;
+  background-color: #ebf1cf;
+} */
+
+.gallerylist .gallery {
+  flex: 1 1 auto;
+  /* border: 2px rgb(7, 118, 9) solid; */
+  border: 2px rgb(0, 0, 0) solid;
+
+  text-align: center;
+  font-size: 36px;
+  border-radius: 7px 7px 7px 7px;
+
+  margin: 5px; /* and that, will result in a 10px gap */
+}
